@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: ee05c7cd4ae809e45bdcf8d96d2b957d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Personagem:Body
+    100002: Personagem:Eyebrow008
+    100004: Personagem:Head
+    100006: Personagem:HeadTop_End
+    100008: Personagem:High-poly
+    100010: Personagem:Hips
+    100012: Personagem:LeftArm
+    100014: Personagem:LeftFoot
+    100016: Personagem:LeftForeArm
+    100018: Personagem:LeftHand
+    100020: Personagem:LeftHandIndex1
+    100022: Personagem:LeftHandIndex2
+    100024: Personagem:LeftHandIndex3
+    100026: Personagem:LeftHandIndex4
+    100028: Personagem:LeftHandMiddle1
+    100030: Personagem:LeftHandMiddle2
+    100032: Personagem:LeftHandMiddle3
+    100034: Personagem:LeftHandMiddle4
+    100036: Personagem:LeftHandPinky1
+    100038: Personagem:LeftHandPinky2
+    100040: Personagem:LeftHandPinky3
+    100042: Personagem:LeftHandPinky4
+    100044: Personagem:LeftHandRing1
+    100046: Personagem:LeftHandRing2
+    100048: Personagem:LeftHandRing3
+    100050: Personagem:LeftHandRing4
+    100052: Personagem:LeftHandThumb1
+    100054: Personagem:LeftHandThumb2
+    100056: Personagem:LeftHandThumb3
+    100058: Personagem:LeftHandThumb4
+    100060: Personagem:LeftLeg
+    100062: Personagem:LeftShoulder
+    100064: Personagem:LeftToe_End
+    100066: Personagem:LeftToeBase
+    100068: Personagem:LeftUpLeg
+    100070: Personagem:Male_casualsuit01
+    100072: Personagem:Neck
+    100074: Personagem:RightArm
+    100076: Personagem:RightFoot
+    100078: Personagem:RightForeArm
+    100080: Personagem:RightHand
+    100082: Personagem:RightHandIndex1
+    100084: Personagem:RightHandIndex2
+    100086: Personagem:RightHandIndex3
+    100088: Personagem:RightHandIndex4
+    100090: Personagem:RightHandMiddle1
+    100092: Personagem:RightHandMiddle2
+    100094: Personagem:RightHandMiddle3
+    100096: Personagem:RightHandMiddle4
+    100098: Personagem:RightHandPinky1
+    100100: Personagem:RightHandPinky2
+    100102: Personagem:RightHandPinky3
+    100104: Personagem:RightHandPinky4
+    100106: Personagem:RightHandRing1
+    100108: Personagem:RightHandRing2
+    100110: Personagem:RightHandRing3
+    100112: Personagem:RightHandRing4
+    100114: Personagem:RightHandThumb1
+    100116: Personagem:RightHandThumb2
+    100118: Personagem:RightHandThumb3
+    100120: Personagem:RightHandThumb4
+    100122: Personagem:RightLeg
+    100124: Personagem:RightShoulder
+    100126: Personagem:RightToe_End
+    100128: Personagem:RightToeBase
+    100130: Personagem:RightUpLeg
+    100132: Personagem:Shoes03
+    100134: Personagem:Short01
+    100136: Personagem:Spine
+    100138: Personagem:Spine1
+    100140: Personagem:Spine2
+    100142: //RootNode
+    400000: Personagem:Body
+    400002: Personagem:Eyebrow008
+    400004: Personagem:Head
+    400006: Personagem:HeadTop_End
+    400008: Personagem:High-poly
+    400010: Personagem:Hips
+    400012: Personagem:LeftArm
+    400014: Personagem:LeftFoot
+    400016: Personagem:LeftForeArm
+    400018: Personagem:LeftHand
+    400020: Personagem:LeftHandIndex1
+    400022: Personagem:LeftHandIndex2
+    400024: Personagem:LeftHandIndex3
+    400026: Personagem:LeftHandIndex4
+    400028: Personagem:LeftHandMiddle1
+    400030: Personagem:LeftHandMiddle2
+    400032: Personagem:LeftHandMiddle3
+    400034: Personagem:LeftHandMiddle4
+    400036: Personagem:LeftHandPinky1
+    400038: Personagem:LeftHandPinky2
+    400040: Personagem:LeftHandPinky3
+    400042: Personagem:LeftHandPinky4
+    400044: Personagem:LeftHandRing1
+    400046: Personagem:LeftHandRing2
+    400048: Personagem:LeftHandRing3
+    400050: Personagem:LeftHandRing4
+    400052: Personagem:LeftHandThumb1
+    400054: Personagem:LeftHandThumb2
+    400056: Personagem:LeftHandThumb3
+    400058: Personagem:LeftHandThumb4
+    400060: Personagem:LeftLeg
+    400062: Personagem:LeftShoulder
+    400064: Personagem:LeftToe_End
+    400066: Personagem:LeftToeBase
+    400068: Personagem:LeftUpLeg
+    400070: Personagem:Male_casualsuit01
+    400072: Personagem:Neck
+    400074: Personagem:RightArm
+    400076: Personagem:RightFoot
+    400078: Personagem:RightForeArm
+    400080: Personagem:RightHand
+    400082: Personagem:RightHandIndex1
+    400084: Personagem:RightHandIndex2
+    400086: Personagem:RightHandIndex3
+    400088: Personagem:RightHandIndex4
+    400090: Personagem:RightHandMiddle1
+    400092: Personagem:RightHandMiddle2
+    400094: Personagem:RightHandMiddle3
+    400096: Personagem:RightHandMiddle4
+    400098: Personagem:RightHandPinky1
+    400100: Personagem:RightHandPinky2
+    400102: Personagem:RightHandPinky3
+    400104: Personagem:RightHandPinky4
+    400106: Personagem:RightHandRing1
+    400108: Personagem:RightHandRing2
+    400110: Personagem:RightHandRing3
+    400112: Personagem:RightHandRing4
+    400114: Personagem:RightHandThumb1
+    400116: Personagem:RightHandThumb2
+    400118: Personagem:RightHandThumb3
+    400120: Personagem:RightHandThumb4
+    400122: Personagem:RightLeg
+    400124: Personagem:RightShoulder
+    400126: Personagem:RightToe_End
+    400128: Personagem:RightToeBase
+    400130: Personagem:RightUpLeg
+    400132: Personagem:Shoes03
+    400134: Personagem:Short01
+    400136: Personagem:Spine
+    400138: Personagem:Spine1
+    400140: Personagem:Spine2
+    400142: //RootNode
+    2100000: No Name
+    4300000: Personagem:Shoes03
+    4300002: Personagem:Male_casualsuit01
+    4300004: Personagem:Eyebrow008
+    4300006: Personagem:High-poly
+    4300008: Personagem:Short01
+    4300010: Personagem:Body
+    7400000: Walking
+    9500000: //RootNode
+    13700000: Personagem:Body
+    13700002: Personagem:Eyebrow008
+    13700004: Personagem:High-poly
+    13700006: Personagem:Male_casualsuit01
+    13700008: Personagem:Shoes03
+    13700010: Personagem:Short01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Walking(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Shoes03
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Male_casualsuit01
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Eyebrow008
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:High-poly
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Short01
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Body
+      parentName: Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Hips
+      parentName: Walking(Clone)
+      position: {x: -0.000031263506, y: 0.11192228, z: 0.0006761428}
+      rotation: {x: 4.6322114e-19, y: -0.0000000014551917, z: 2.273737e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:Spine
+      parentName: Personagem:Hips
+      position: {x: -0, y: 0.009773874, z: -0.00042334557}
+      rotation: {x: -0.02164176, y: 0.0000000018274209, z: -3.6981063e-10, w: 0.9997658}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Personagem:Spine1
+      parentName: Personagem:Spine
+      position: {x: -0, y: 0.011413546, z: -1.9736674e-11}
+      rotation: {x: -0.000000011175871, y: 0.0000000010510147, z: 9.558712e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Personagem:Spine2
+      parentName: Personagem:Spine1
+      position: {x: -0, y: 0.013044055, z: -1.2595579e-11}
+      rotation: {x: -0.0000000055879354, y: -0.0000000043299995, z: -9.158276e-10,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999964}
+    - name: Personagem:Neck
+      parentName: Personagem:Spine2
+      position: {x: -0, y: 0.014674553, z: -3.752715e-10}
+      rotation: {x: 0.021641765, y: 0.0000000043488053, z: 8.2190416e-10, w: 0.9997658}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Personagem:Head
+      parentName: Personagem:Neck
+      position: {x: -0, y: 0.0073144436, z: 0.0016704979}
+      rotation: {x: -0, y: -0.0000000020008886, z: -0.0000000010004443, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Personagem:HeadTop_End
+      parentName: Personagem:Head
+      position: {x: -0, y: 0.02341545, z: 0.005347702}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightShoulder
+      parentName: Personagem:Spine2
+      position: {x: 0.006327066, y: 0.011983497, z: -0.00003297872}
+      rotation: {x: -0.57410085, y: -0.41174728, z: 0.5764312, w: -0.4106088}
+      scale: {x: 1.0000012, y: 1.0000012, z: 1.0000005}
+    - name: Personagem:RightArm
+      parentName: Personagem:RightShoulder
+      position: {x: -1.2204065e-11, y: 0.014084203, z: -4.1892248e-10}
+      rotation: {x: -0.13910851, y: -0.035944276, z: 0.0100571485, w: 0.9895735}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000007}
+    - name: Personagem:RightForeArm
+      parentName: Personagem:RightArm
+      position: {x: 1.8818266e-11, y: 0.022901274, z: -1.4641918e-10}
+      rotation: {x: 0.021988774, y: -0.011571097, z: -0.02930888, w: -0.9992615}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000004}
+    - name: Personagem:RightHand
+      parentName: Personagem:RightForeArm
+      position: {x: 7.3790925e-11, y: 0.028242428, z: -2.512033e-10}
+      rotation: {x: 0.085698046, y: 0.013734649, z: 0.088070266, w: 0.992326}
+      scale: {x: 1.0000001, y: 1.0000015, z: 1.0000008}
+    - name: Personagem:RightHandIndex1
+      parentName: Personagem:RightHand
+      position: {x: -0.0033808835, y: 0.012712666, z: 0.0000054322477}
+      rotation: {x: 0.010117114, y: 0.0011504479, z: 0.11297372, w: 0.99354583}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Personagem:RightHandIndex2
+      parentName: Personagem:RightHandIndex1
+      position: {x: 0.000035769754, y: 0.0036177156, z: -5.1771564e-12}
+      rotation: {x: 0.0366879, y: 0.00023140528, z: -0.0055558872, w: 0.9993113}
+      scale: {x: 1, y: 1.0000005, z: 1.0000007}
+    - name: Personagem:RightHandIndex3
+      parentName: Personagem:RightHandIndex2
+      position: {x: -0.000018594938, y: 0.0035170028, z: -5.5999753e-11}
+      rotation: {x: -0.00028863546, y: 0.000000108397, z: 0.000000027746982, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Personagem:RightHandIndex4
+      parentName: Personagem:RightHandIndex3
+      position: {x: -0.000017174838, y: 0.0031463865, z: -2.1969466e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightHandMiddle1
+      parentName: Personagem:RightHand
+      position: {x: -0.00094535394, y: 0.013560829, z: 0.00015181564}
+      rotation: {x: -0.026121616, y: 0.00039655343, z: -0.015173565, w: 0.9995436}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000012}
+    - name: Personagem:RightHandMiddle2
+      parentName: Personagem:RightHandMiddle1
+      position: {x: 0.000006935398, y: 0.0037342869, z: 9.358043e-11}
+      rotation: {x: 0.03545741, y: 0.000042408054, z: -0.0011924945, w: 0.99937046}
+      scale: {x: 1, y: 0.99999964, z: 0.9999999}
+    - name: Personagem:RightHandMiddle3
+      parentName: Personagem:RightHandMiddle2
+      position: {x: -0.0000042879897, y: 0.0035947212, z: -1.8651001e-11}
+      rotation: {x: -0.019588718, y: 0.00000005845506, z: -0.000000083316955, w: 0.99980813}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000013}
+    - name: Personagem:RightHandMiddle4
+      parentName: Personagem:RightHandMiddle3
+      position: {x: -0.00000264762, y: 0.003209429, z: -1.7203569e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightHandRing1
+      parentName: Personagem:RightHand
+      position: {x: 0.0012333323, y: 0.013257863, z: -0.00024561211}
+      rotation: {x: 0.007607094, y: -0.0016154533, z: -0.0468057, w: 0.99887383}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000013}
+    - name: Personagem:RightHandRing2
+      parentName: Personagem:RightHandRing1
+      position: {x: -0.0000139590475, y: 0.003494605, z: -1.1772258e-10}
+      rotation: {x: 0.03700183, y: 0.0000020388973, z: 0.0028899743, w: 0.99931103}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000008}
+    - name: Personagem:RightHandRing3
+      parentName: Personagem:RightHandRing2
+      position: {x: 0.000013194984, y: 0.0032684153, z: 6.822201e-11}
+      rotation: {x: -0.040522307, y: -0.000045808745, z: -0.0006468486, w: 0.9991784}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.000001}
+    - name: Personagem:RightHandRing4
+      parentName: Personagem:RightHandRing3
+      position: {x: 0.0000007641976, y: 0.0028303186, z: -1.2550326e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightHandPinky1
+      parentName: Personagem:RightHand
+      position: {x: 0.0030929053, y: 0.012173618, z: 0.000030468203}
+      rotation: {x: 0.01931509, y: -0.012030308, z: -0.04316274, w: 0.9988089}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000015}
+    - name: Personagem:RightHandPinky2
+      parentName: Personagem:RightHandPinky1
+      position: {x: -0.000020650245, y: 0.0026815997, z: -1.0068813e-10}
+      rotation: {x: 0.037104826, y: -0.00019714788, z: 0.003974145, w: 0.9993035}
+      scale: {x: 1.0000002, y: 1.0000014, z: 1.0000004}
+    - name: Personagem:RightHandPinky3
+      parentName: Personagem:RightHandPinky2
+      position: {x: 0.000008094757, y: 0.0023525166, z: 8.1300064e-11}
+      rotation: {x: 0.018359018, y: 0.000000053289696, z: -0.0000000867891, w: 0.9998315}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: Personagem:RightHandPinky4
+      parentName: Personagem:RightHandPinky3
+      position: {x: 0.000012555504, y: 0.0020206587, z: -2.3883525e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightHandThumb1
+      parentName: Personagem:RightHand
+      position: {x: -0.0030445561, y: 0.004649094, z: 0.0012921938}
+      rotation: {x: 0.07132908, y: 0.01284171, z: 0.34987098, w: 0.9339902}
+      scale: {x: 1.0000001, y: 1.0000025, z: 1.0000021}
+    - name: Personagem:RightHandThumb2
+      parentName: Personagem:RightHandThumb1
+      position: {x: -0.000008247714, y: 0.0045644226, z: -2.0185595e-10}
+      rotation: {x: 0.037899926, y: -0.0012987611, z: -0.012470908, w: 0.99920285}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000008}
+    - name: Personagem:RightHandThumb3
+      parentName: Personagem:RightHandThumb2
+      position: {x: -0.00017512265, y: 0.0040586563, z: 1.3941338e-10}
+      rotation: {x: -0.0053498917, y: -0.000006553832, z: 0.008306745, w: 0.99995124}
+      scale: {x: 0.99999976, y: 0.9999995, z: 0.9999999}
+    - name: Personagem:RightHandThumb4
+      parentName: Personagem:RightHandThumb3
+      position: {x: 0.00018337017, y: 0.003323754, z: 2.6321754e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftShoulder
+      parentName: Personagem:Spine2
+      position: {x: -0.006327066, y: 0.011990723, z: -0.00019982943}
+      rotation: {x: 0.5669075, y: -0.41640905, z: 0.58310694, w: 0.40645495}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000008}
+    - name: Personagem:LeftArm
+      parentName: Personagem:LeftShoulder
+      position: {x: -2.1620088e-11, y: 0.014084205, z: 2.840248e-10}
+      rotation: {x: -0.13713163, y: 0.10103949, z: -0.02750318, w: 0.9850023}
+      scale: {x: 1.000001, y: 1.0000027, z: 1.000001}
+    - name: Personagem:LeftForeArm
+      parentName: Personagem:LeftArm
+      position: {x: 1.8906788e-11, y: 0.022955451, z: -4.1274185e-12}
+      rotation: {x: -0.019744856, y: -0.073955275, z: -0.030497469, w: 0.99659956}
+      scale: {x: 0.9999993, y: 1.0000002, z: 1.0000002}
+    - name: Personagem:LeftHand
+      parentName: Personagem:LeftForeArm
+      position: {x: -5.109487e-10, y: 0.02796399, z: 7.170636e-10}
+      rotation: {x: 0.073583096, y: -0.013780097, z: -0.09547325, w: 0.992613}
+      scale: {x: 1.0000005, y: 1.0000024, z: 1.000002}
+    - name: Personagem:LeftHandIndex1
+      parentName: Personagem:LeftHand
+      position: {x: 0.0036764115, y: 0.013357337, z: -0.000038163904}
+      rotation: {x: 0.04502466, y: -0.0039042043, z: -0.08629903, w: 0.99524367}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000004}
+    - name: Personagem:LeftHandIndex2
+      parentName: Personagem:LeftHandIndex1
+      position: {x: -0.0000313368, y: 0.0036326472, z: -1.4230897e-10}
+      rotation: {x: 0.037250146, y: -0.0001417636, z: 0.0049516805, w: 0.9992937}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: Personagem:LeftHandIndex3
+      parentName: Personagem:LeftHandIndex2
+      position: {x: 0.000018742132, y: 0.003445152, z: -5.932989e-11}
+      rotation: {x: -0.010774381, y: 0.000000033661962, z: -0.0000000434984, w: 0.99994195}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: Personagem:LeftHandIndex4
+      parentName: Personagem:LeftHandIndex3
+      position: {x: 0.000012595054, y: 0.0030191287, z: 1.0831868e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftHandMiddle1
+      parentName: Personagem:LeftHand
+      position: {x: 0.0009913619, y: 0.013624618, z: -0.00008785122}
+      rotation: {x: 0.027172513, y: 0.000858319, z: 0.03156119, w: 0.9991321}
+      scale: {x: 0.99999964, y: 0.9999988, z: 0.99999917}
+    - name: Personagem:LeftHandMiddle2
+      parentName: Personagem:LeftHandMiddle1
+      position: {x: -0.0000022773088, y: 0.0040295403, z: -5.826875e-11}
+      rotation: {x: 0.0374275, y: -0.00000072445226, z: 0.00038828622, w: 0.99929935}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Personagem:LeftHandMiddle3
+      parentName: Personagem:LeftHandMiddle2
+      position: {x: 0.000002017382, y: 0.0036799328, z: 1.1916583e-10}
+      rotation: {x: -0.0411279, y: -0.000002697482, z: -0.00004108817, w: 0.9991539}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000007}
+    - name: Personagem:LeftHandMiddle4
+      parentName: Personagem:LeftHandMiddle3
+      position: {x: 0.00000025998997, y: 0.0032245668, z: 1.9525288e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftHandRing1
+      parentName: Personagem:LeftHand
+      position: {x: -0.0013598152, y: 0.013571157, z: -0.00026085912}
+      rotation: {x: 0.010645814, y: 0.0021213414, z: 0.044690933, w: 0.9989419}
+      scale: {x: 1.0000001, y: 0.9999993, z: 0.9999999}
+    - name: Personagem:LeftHandRing2
+      parentName: Personagem:LeftHandRing1
+      position: {x: 0.00001129112, y: 0.0034524642, z: 1.8866508e-12}
+      rotation: {x: 0.036299784, y: -0.000045371005, z: -0.0027669212, w: 0.99933714}
+      scale: {x: 1.0000002, y: 1.0000017, z: 1.000001}
+    - name: Personagem:LeftHandRing3
+      parentName: Personagem:LeftHandRing2
+      position: {x: -0.000013717933, y: 0.0033489834, z: 7.158077e-11}
+      rotation: {x: -0.0387505, y: 0.00009391567, z: 0.0014968637, w: 0.9992478}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000008}
+    - name: Personagem:LeftHandRing4
+      parentName: Personagem:LeftHandRing3
+      position: {x: 0.0000024269605, y: 0.002745953, z: 2.9046649e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftHandPinky1
+      parentName: Personagem:LeftHand
+      position: {x: -0.0033079584, y: 0.012381575, z: 0.000021765001}
+      rotation: {x: 0.02116063, y: 0.012298457, z: 0.03976709, w: 0.99890924}
+      scale: {x: 0.9999997, y: 0.9999993, z: 0.99999994}
+    - name: Personagem:LeftHandPinky2
+      parentName: Personagem:LeftHandPinky1
+      position: {x: 0.00001807236, y: 0.0026446925, z: -1.9857324e-11}
+      rotation: {x: 0.03747422, y: 0.00007111857, z: -0.0041485867, w: 0.999289}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
+    - name: Personagem:LeftHandPinky3
+      parentName: Personagem:LeftHandPinky2
+      position: {x: -0.000012487042, y: 0.002425211, z: 1.2385275e-11}
+      rotation: {x: -0.0077688238, y: -0.000000026593618, z: -0.00000004926919, w: 0.99996984}
+      scale: {x: 1.0000007, y: 1.0000018, z: 1.0000013}
+    - name: Personagem:LeftHandPinky4
+      parentName: Personagem:LeftHandPinky3
+      position: {x: -0.000005585379, y: 0.0020002814, z: -7.0988545e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftHandThumb1
+      parentName: Personagem:LeftHand
+      position: {x: 0.002978852, y: 0.0047490024, z: 0.0012281367}
+      rotation: {x: 0.06584408, y: -0.011434031, z: -0.35732833, w: 0.9315849}
+      scale: {x: 0.9999989, y: 1.0000007, z: 1.0000002}
+    - name: Personagem:LeftHandThumb2
+      parentName: Personagem:LeftHandThumb1
+      position: {x: -0.00007322424, y: 0.0045905313, z: -6.9572986e-11}
+      rotation: {x: 0.036244858, y: 0.0013108269, z: 0.022247087, w: 0.9990945}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: Personagem:LeftHandThumb3
+      parentName: Personagem:LeftHandThumb2
+      position: {x: 0.0002032641, y: 0.004165166, z: -3.1921576e-11}
+      rotation: {x: -0.011008193, y: -0.000004734494, z: -0.002952654, w: 0.9999351}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: Personagem:LeftHandThumb4
+      parentName: Personagem:LeftHandThumb3
+      position: {x: -0.00013003996, y: 0.0035145276, z: 3.8012614e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:RightUpLeg
+      parentName: Personagem:Hips
+      position: {x: 0.010090008, y: -0.005430298, z: -0.00075196323}
+      rotation: {x: -0.00043837336, y: -0.007705607, z: 0.9983559, w: -0.056797378}
+      scale: {x: 1.0000007, y: 1.0000011, z: 0.9999999}
+    - name: Personagem:RightLeg
+      parentName: Personagem:RightUpLeg
+      position: {x: 8.998209e-11, y: 0.048240956, z: 1.2099502e-12}
+      rotation: {x: 0.004122731, y: 0.0000016139529, z: 0.00039063246, w: 0.9999915}
+      scale: {x: 1.0000006, y: 1.0000013, z: 1.0000002}
+    - name: Personagem:RightFoot
+      parentName: Personagem:RightLeg
+      position: {x: -7.840077e-11, y: 0.04636775, z: 5.906603e-12}
+      rotation: {x: 0.46661633, y: 0.06650794, z: -0.03521543, w: 0.88125247}
+      scale: {x: 1.0000012, y: 1.0000012, z: 1.0000002}
+    - name: Personagem:RightToeBase
+      parentName: Personagem:RightFoot
+      position: {x: -1.0402502e-10, y: 0.016253129, z: 6.154593e-10}
+      rotation: {x: 0.30938438, y: -0.12510572, z: 0.04109871, w: 0.9417754}
+      scale: {x: 1.0000013, y: 1.0000014, z: 0.9999988}
+    - name: Personagem:RightToe_End
+      parentName: Personagem:RightToeBase
+      position: {x: 1.9230838e-13, y: 0.006726693, z: -6.934586e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personagem:LeftUpLeg
+      parentName: Personagem:Hips
+      position: {x: -0.010090008, y: -0.005430298, z: -0.00068308203}
+      rotation: {x: 0.0007848357, y: -0.013798914, z: 0.99829113, w: 0.05677884}
+      scale: {x: 1.0000015, y: 1.000001, z: 0.9999998}
+    - name: Personagem:LeftLeg
+      parentName: Personagem:LeftUpLeg
+      position: {x: 2.6326225e-10, y: 0.048253484, z: -4.343515e-11}
+      rotation: {x: -0.0073468615, y: 0.0000026567723, z: -0.00036044745, w: 0.99997294}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000006}
+    - name: Personagem:LeftFoot
+      parentName: Personagem:LeftLeg
+      position: {x: -1.3744e-10, y: 0.046407606, z: -8.6014224e-11}
+      rotation: {x: 0.50868666, y: -0.054783236, z: 0.03245716, w: 0.85859376}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000008}
+    - name: Personagem:LeftToeBase
+      parentName: Personagem:LeftFoot
+      position: {x: -4.3820232e-11, y: 0.017869703, z: -2.5931207e-10}
+      rotation: {x: 0.27957004, y: 0.11893041, z: -0.034922484, w: 0.9520907}
+      scale: {x: 1.000003, y: 1.000002, z: 1.0000011}
+    - name: Personagem:LeftToe_End
+      parentName: Personagem:LeftToeBase
+      position: {x: 2.2772894e-14, y: 0.0068730973, z: 2.729508e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
