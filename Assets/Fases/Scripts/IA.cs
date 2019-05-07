@@ -10,12 +10,13 @@ public class IA : MonoBehaviour
     public int MoveSpeed;
     public int MinDist;
     Animator anim;
-
-
+    public MovePlayer other;
+    bool notdead;
 
 
     void Start()
     {
+        notdead = true;
         anim = GetComponent<Animator>();
     }
 
@@ -25,18 +26,28 @@ public class IA : MonoBehaviour
 
         if (Vector3.Distance(transform.position, Player.position) <= MinDist)
         {
-            //Debug.Log("aquiiii" + Vector3.Distance(transform.position, Player.position));
-            transform.LookAt(Player);
+            if (notdead)
+            {
+                //Debug.Log("aquiiii" + Vector3.Distance(transform.position, Player.position));
+                transform.LookAt(Player);
 
-            transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-            anim.SetBool("corre", true);
+                transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+                anim.SetBool("walk", true);
+            }
+            
 
 
         }
         else
         {
-            anim.SetBool("corre", false);
+            anim.SetBool("walk", false);
         }
+    }
+
+    public void Kill()
+    {
+        other.Die();
+        notdead = false;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -45,7 +56,8 @@ public class IA : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("dentro");
-            SceneManager.LoadScene("Derrota");
+            anim.SetBool("kill", true);
+            anim.SetBool("walk", false);
         }
     }
 }

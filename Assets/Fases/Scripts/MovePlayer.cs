@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovePlayer : MonoBehaviour {
 
@@ -59,8 +60,17 @@ public class MovePlayer : MonoBehaviour {
             
     }
 
+    public void Die()
+    {
+        anim.SetBool("Die", true);
+    }
 
-    void Animate(float h, float v, float r)
+    public void GameOver()
+    {
+        SceneManager.LoadScene("Derrota");
+    }
+
+    public void Animate(float h, float v, float r)
     {
         bool running = r != 0f && v == 1f;
         bool walking = v == 1f;

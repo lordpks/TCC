@@ -101,6 +101,7 @@
     <Compile Include="Assets\ScenesMenuHUD\Scripts\ScriptSairJogo.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Scripts\ScriptSomBotoes.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Scripts\ScriptTeste.cs" />
+    <Compile Include="Assets\teste.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\FancyScrollView\01_Basic\Example01CellDto.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\FancyScrollView\01_Basic\Example01Scene.cs" />
     <Compile Include="Assets\unity-ui-extensions\Examples\FancyScrollView\01_Basic\Example01ScrollView.cs" />
