@@ -1,0 +1,4 @@
+Assets/Fases/Cenario/Mapa1CompletoEOtimizado(para[[:space:]]referencia)/Mapa1Completo.dae filter=lfs diff=lfs merge=lfs -text
+Assets/Fases/Sprites/Monstro2/monstro_texturizado.obj filter=lfs diff=lfs merge=lfs -text
+Library/metadata/12/124f0277af7c44a4fa7165cb75950776 filter=lfs diff=lfs merge=lfs -text
+Library/metadata/58/587b5807df6def54f89ffb834c73f762 filter=lfs diff=lfs merge=lfs -text
