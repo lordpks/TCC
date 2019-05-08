@@ -118,6 +118,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3986466070207942045}
+  - component: {fileID: 1740392001}
+  - component: {fileID: 1740392003}
+  - component: {fileID: 1740392002}
   m_Layer: 0
   m_Name: "PortasSeguran\xE7a"
   m_TagString: Untagged
@@ -132,14 +135,60 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3986466070207910333}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 927.80005, y: -926.03015, z: 9.8428955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3986466070207942043}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+--- !u!65 &1740392001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986466070207910333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 38.54746, y: 17.895985, z: 94.53788}
+  m_Center: {x: -36.61783, y: -12.363409, z: 43.131058}
+--- !u!95 &1740392003
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986466070207910333}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca719cca879fd0e4496233f4ee8a9273, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1740392002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986466070207910333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f7073d61e0ea4f822c376c270bb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porta: {fileID: 3986466070207910333}
+  AnimadorPorta: {fileID: 1740392003}
 --- !u!1 &3986466070207910335
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,6 +200,7 @@ GameObject:
   - component: {fileID: 3986466070207942047}
   - component: {fileID: 3986466070206614969}
   - component: {fileID: 3986466070205648761}
+  - component: {fileID: 1047731867}
   m_Layer: 0
   m_Name: instance_2
   m_TagString: Untagged
@@ -217,3 +267,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1047731867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986466070207910335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35.433086, y: 1.1811023, z: 82.67719}
+  m_Center: {x: -17.716291, y: 0.59055114, z: 41.3386}

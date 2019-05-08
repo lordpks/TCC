@@ -9,9 +9,14 @@ public class IA : MonoBehaviour
     public Transform Player;
     public int MoveSpeed;
     public int MinDist;
+    public int MaxDist;
     Animator anim;
     public MovePlayer other;
     bool notdead;
+    bool calmBat;
+    bool fastbat = false;
+
+    public Batimentos batimentos;
 
 
     void Start()
@@ -22,12 +27,14 @@ public class IA : MonoBehaviour
 
     void Update()
     {
-        
 
+        
         if (Vector3.Distance(transform.position, Player.position) <= MinDist)
         {
+           
             if (notdead)
             {
+                
                 //Debug.Log("aquiiii" + Vector3.Distance(transform.position, Player.position));
                 transform.LookAt(Player);
 
@@ -40,6 +47,14 @@ public class IA : MonoBehaviour
         }
         else
         {
+            calmBat = true;
+            if (calmBat)
+            {
+                batimentos.BatimentoCalmo();
+                calmBat = false;
+            }
+            calmBat = false;
+            fastbat = false;
             anim.SetBool("walk", false);
         }
     }

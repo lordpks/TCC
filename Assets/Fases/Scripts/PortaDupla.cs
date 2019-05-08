@@ -21,18 +21,17 @@ public class PortaDupla : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        acao = false;
+        
+    }
+
+    void OnTriggerStay(Collider other) {
+        //AnimadorPorta51_52.SetBool("Teste", true);
+        //AnimadorPorta51_52.SetBool("Teste2", PortaFechada);
         if (Input.GetKeyUp("space"))
         {
             acao = true;
         }
-    }
-
-    void OnTriggerStay(Collider other) {
-            //AnimadorPorta51_52.SetBool("Teste", true);
-            //AnimadorPorta51_52.SetBool("Teste2", PortaFechada);
-
-            if (portaFechada)
+        if (portaFechada)
             {
             Debug.Log("portaportaporta" + portaFechada);
                 if (acao)
