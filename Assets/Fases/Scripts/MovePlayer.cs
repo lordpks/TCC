@@ -9,6 +9,7 @@ public class MovePlayer : MonoBehaviour {
     public float sped = 10f;
     public float speedback = 40f;
     public float turnSpeed = 150f;
+    bool notdead = true;
 
     public Transform move;
     Vector3 movement;                   
@@ -26,10 +27,13 @@ public class MovePlayer : MonoBehaviour {
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
         float r = Input.GetAxisRaw("Run");
+        if (notdead)
+        {
+            Move(v);
+            Rotate(h);
+            Animate(h, v, r);
+        }
 
-        Move(v);
-        Rotate(h);
-        Animate(h, v, r);
     }
 
     void Move(float v)
@@ -62,6 +66,7 @@ public class MovePlayer : MonoBehaviour {
 
     public void Die()
     {
+        notdead = false;
         anim.SetBool("Die", true);
     }
 
