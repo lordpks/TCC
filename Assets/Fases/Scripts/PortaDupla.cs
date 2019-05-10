@@ -33,7 +33,6 @@ public class PortaDupla : MonoBehaviour {
         }
         if (portaFechada)
             {
-            Debug.Log("portaportaporta" + portaFechada);
                 if (acao)
                 {
                     AnimadorPortaE.SetBool("Abre", true);

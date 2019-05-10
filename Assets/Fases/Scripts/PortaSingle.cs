@@ -33,7 +33,6 @@ public class PortaSingle : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        Debug.Log("portaporta1" + other);
         if (portaFechada)
         {
             if (acao)

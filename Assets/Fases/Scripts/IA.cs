@@ -15,6 +15,9 @@ public class IA : MonoBehaviour
     bool notdead;
     bool calmBat;
     bool fastbat = false;
+    bool inrangemin = false;
+    bool inrangemax = false;
+    bool isplaying = false;
 
     public Batimentos batimentos;
 
@@ -29,8 +32,45 @@ public class IA : MonoBehaviour
     {
 
         
-        if (Vector3.Distance(transform.position, Player.position) <= MinDist)
+        if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
         {
+            if(Vector3.Distance(transform.position, Player.position) <= MinDist)
+            {
+                if (!inrangemin)
+                {
+                    fastbat = true;
+                    inrangemin = true;
+                    
+                }
+            }else
+            {
+                if (inrangemin)
+                {
+                    inrangemax = false;
+                }
+                inrangemin = false;
+            }
+
+            if (fastbat)
+            {
+                batimentos.BatimentoRapido();
+                fastbat = false;
+                isplaying = true;
+            }
+
+            if (calmBat)
+            {
+                batimentos.BatimentoCalmo();
+                calmBat = false;
+                isplaying = true;
+            }
+
+            if (!inrangemax)
+            {
+                calmBat = true;
+                inrangemax = true;
+
+            }
            
             if (notdead)
             {
@@ -47,15 +87,20 @@ public class IA : MonoBehaviour
         }
         else
         {
-            calmBat = true;
-            if (calmBat)
+            if (isplaying)
             {
-                batimentos.BatimentoCalmo();
+                batimentos.Stop();
+                isplaying = false;
+                inrangemin = false;
+                inrangemax = false;
                 calmBat = false;
+                fastbat = false;
             }
-            calmBat = false;
-            fastbat = false;
-            anim.SetBool("walk", false);
+            if (anim.GetBool("walk"))
+            {
+                anim.SetBool("walk", false);
+            }
+                
         }
     }
 
@@ -67,7 +112,6 @@ public class IA : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collide");
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("dentro");

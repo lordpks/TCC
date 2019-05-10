@@ -9,28 +9,23 @@ public class Batimentos : MonoBehaviour
 
     public AudioSource audioSource;
 
-    public void BatimentoCalmo()
+    public void Stop()
     {
         audioSource.Stop();
+    }
+
+    public void BatimentoCalmo()
+    {
+        Debug.Log("play calm");
         audioSource.clip = Bslow;
         audioSource.Play();
     }
 
     public void BatimentoRapido()
     {
-        audioSource.Stop();
+        Debug.Log("play fast");
         audioSource.clip = Bfast;
         audioSource.Play();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
