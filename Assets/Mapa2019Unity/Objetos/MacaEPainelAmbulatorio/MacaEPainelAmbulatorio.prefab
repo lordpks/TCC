@@ -318,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4549216075855934}
   - component: {fileID: 95180913984458020}
+  - component: {fileID: 2986667587906510344}
   m_Layer: 0
   m_Name: MacaEPainelAmbulatorio
   m_TagString: Untagged
@@ -359,6 +360,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &2986667587906510344
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327203106777004}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.75, y: 17.75, z: 46.05}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -46.6, y: 28.2, z: 48.3}
+  m_TimeToStationary: 0.5
 --- !u!1 &1513903696092372
 GameObject:
   m_ObjectHideFlags: 0

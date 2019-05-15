@@ -479,6 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551324028798948}
   - component: {fileID: 95923459478102524}
+  - component: {fileID: 8017301222400999962}
   m_Layer: 0
   m_Name: CadeiraAmbulatorio
   m_TagString: Obstaculo
@@ -495,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 1876098161141068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 851.7097, y: 127.61717, z: 362.13385}
-  m_LocalScale: {x: 1.0000011, y: 1.0000011, z: 1.0000013}
+  m_LocalScale: {x: 1.0000011, y: 1.0000005, z: 1.0000005}
   m_Children:
   - {fileID: 4609833735673930}
   m_Father: {fileID: 0}
@@ -520,6 +521,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &8017301222400999962
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876098161141068}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 16.15, y: 12.55, z: 15.83}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -31.41, y: 25.25, z: 15.6}
+  m_TimeToStationary: 0.5
 --- !u!1 &1947698416398640
 GameObject:
   m_ObjectHideFlags: 0

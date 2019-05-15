@@ -179,6 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4833820311240060}
   - component: {fileID: 95561988304114464}
+  - component: {fileID: 2244298894160309156}
   m_Layer: 0
   m_Name: ArmarioAltoAmareloLab
   m_TagString: Untagged
@@ -220,3 +221,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!208 &2244298894160309156
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980912465247068}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 14.45, y: 14.655, z: 37.15}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -26.36, y: 17.9, z: 39.1}
+  m_TimeToStationary: 0.5

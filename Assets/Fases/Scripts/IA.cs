@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.AI;
 
 public class IA : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class IA : MonoBehaviour
     bool inrangemin = false;
     bool inrangemax = false;
     bool isplaying = false;
+    public NavMeshAgent agent;
 
     public Batimentos batimentos;
 
@@ -77,8 +79,9 @@ public class IA : MonoBehaviour
                 
                 //Debug.Log("aquiiii" + Vector3.Distance(transform.position, Player.position));
                 transform.LookAt(Player);
+                agent.SetDestination(Player.position);
 
-                transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+                //transform.position += transform.forward * MoveSpeed * Time.deltaTime;
                 anim.SetBool("walk", true);
             }
             
