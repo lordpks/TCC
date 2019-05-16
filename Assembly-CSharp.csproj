@@ -85,6 +85,10 @@
     <Compile Include="Assets\Fases\Scripts\StartupManager.cs" />
     <Compile Include="Assets\Fases\Scripts\TimerScript.cs" />
     <Compile Include="Assets\Fases\Scripts\TutorialEnv.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\PlayVideos.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Menu\HUD\ScriptTesteHUD.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Scripts\PiscaTitulo.cs" />
