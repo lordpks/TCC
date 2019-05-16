@@ -10,13 +10,12 @@ public class MovePlayer : MonoBehaviour {
     public float speedback = 40f;
     public float turnSpeed = 150f;
     bool notdead = true;
-
     public Transform move;
     Vector3 movement;                   
     Animator anim;                      
     Rigidbody playerRigidbody;           
 
-    void Awake()
+    void Start()
     {
         anim = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody>();
@@ -63,6 +62,7 @@ public class MovePlayer : MonoBehaviour {
         }
             
     }
+    
 
     public void Die()
     {
@@ -79,8 +79,10 @@ public class MovePlayer : MonoBehaviour {
     {
         bool running = r != 0f && v == 1f;
         bool walking = v == 1f;
+        bool walk_Back = v == -1f;
         bool run_turn = r != 0f && v == -1f;
 
+        anim.SetBool("walk_back", walk_Back);
         anim.SetBool("Run", running);
         anim.SetBool("Walk", walking);
         anim.SetBool("Run Turn", run_turn);
