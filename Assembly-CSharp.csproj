@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Batimentos.cs" />
+    <Compile Include="Assets\Fases\Animacao\novas animacoes\Portas\portaCard1.cs" />
     <Compile Include="Assets\Fases\Scripts\Btns.cs" />
     <Compile Include="Assets\Fases\Scripts\Chaves\Chave.cs" />
     <Compile Include="Assets\Fases\Scripts\Chaves\Chave2.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayVideos.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Menu\HUD\ScriptTesteHUD.cs" />
     <Compile Include="Assets\ScenesMenuHUD\Scripts\PiscaTitulo.cs" />

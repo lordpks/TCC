@@ -139,7 +139,7 @@ public class TimerScript : MonoBehaviour {
 void Carrega()
 {
 
-    timer += 60;
+    timer += 100;
 }
 
     void Bateria0HUD()

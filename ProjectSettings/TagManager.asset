@@ -12,6 +12,10 @@ TagManager:
   - idioma
   - mapa
   - Obstaculo
+  - card1
+  - card2
+  - card3
+  - chave
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,7 @@ public class PortaDupla : MonoBehaviour {
     public Animator AnimadorPortaD;
     bool portaFechada;
     bool acao;
+    public PlayerController player_ctrl;
 
     // Use this for initialization
     void Start() {
@@ -30,6 +31,7 @@ public class PortaDupla : MonoBehaviour {
         if (Input.GetKeyUp("space"))
         {
             acao = true;
+            
         }
         if (portaFechada)
             {
