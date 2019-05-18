@@ -8,7 +8,6 @@ public class PortaDupla : MonoBehaviour {
     public Animator AnimadorPortaD;
     bool portaFechada;
     bool acao;
-    public PlayerController player_ctrl;
 
     // Use this for initialization
     void Start() {
@@ -33,10 +32,13 @@ public class PortaDupla : MonoBehaviour {
             acao = true;
             
         }
+        Debug.Log("11");
         if (portaFechada)
             {
+            Debug.Log("12222");
                 if (acao)
                 {
+                Debug.Log("@#2233");
                     AnimadorPortaE.SetBool("Abre", true);
                     AnimadorPortaE.SetBool("Fecha", false);
                     AnimadorPortaD.SetBool("Abre", true);

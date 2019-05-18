@@ -47,5 +47,17 @@ public class portaCard1 : MonoBehaviour
                 acao = false;
 
             }
+        else
+        {
+            if (acao && player_ctrl.chave)
+            {
+                AnimadorPortaE.SetBool("Abre", false);
+                AnimadorPortaE.SetBool("Fecha", true);
+                AnimadorPortaD.SetBool("Abre", false);
+                AnimadorPortaD.SetBool("Fecha", true);
+                portaFechada = true;
+                acao = false;
+            }
+        }
     }
 }

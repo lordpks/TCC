@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public GameObject cardA;
     public GameObject cardB;
     public GameObject cardC;
+    public GameObject key;
 
     public void OnTriggerStay(Collider other)
     {
@@ -28,19 +29,22 @@ public class PlayerController : MonoBehaviour
             if (other.gameObject.CompareTag("card2"))
             {
                 other.gameObject.SetActive(false);
-                card1 = true;
+                card2 = true;
+                cardB.SetActive(false);
             }
 
             if (other.gameObject.CompareTag("card3"))
             {
                 other.gameObject.SetActive(false);
-                card1 = true;
+                card3 = true;
+                cardC.SetActive(false);
             }
 
             if (other.gameObject.CompareTag("chave"))
             {
                 other.gameObject.SetActive(false);
                 chave = true;
+                key.SetActive(false);
             }
         }
         
